@@ -41,10 +41,10 @@ Used a **Gradient Boosting Decision Tree (GBDT)** approach via LightGBM, optimiz
 ---
 
 ## 📂 Project Structure
-```bash
-end-to-end-demand-forecasting/
-├── m5-forecasting-accuracy/    # Raw dataset (Calendar, Prices, Sales)
-├── m5_demand_forecasting.ipynb # Core pipeline (EDA, Engineering, Training)
+```text
+.
+├── m5_demand_forecasting.ipynb # Core notebook (Preprocessing -> Model)
+├── .gitignore                  # Prevents large CSVs from being tracked
 └── README.md                   # Project documentation
 ```
 
@@ -59,7 +59,7 @@ end-to-end-demand-forecasting/
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/end-to-end-demand-forecasting.git
+   git clone https://github.com/khushiarora0208/end-to-end-demand-forecasting.git
    cd end-to-end-demand-forecasting
    ```
 
@@ -68,8 +68,10 @@ end-to-end-demand-forecasting/
    pip install pandas numpy lightgbm scikit-learn matplotlib seaborn
    ```
 
-3. Download the data:
-   Place the M5 Forecasting competition files in the `m5-forecasting-accuracy/` directory.
+3. **Download the Dataset**:
+   The data files are too large for GitHub tracking and are ignored via `.gitignore`. Download the dataset directly from Kaggle:
+   - **Link**: [Kaggle M5 Forecasting - Accuracy Data](https://www.kaggle.com/competitions/m5-forecasting-accuracy/data)
+   - Unzip and place the `.csv` files inside the `m5-forecasting-accuracy/` folder.
 
 ---
 
