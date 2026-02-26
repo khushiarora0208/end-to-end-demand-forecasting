@@ -1,0 +1,4 @@
+*.csv
+data/
+dataset/
+m5-forecasting-accuracy/
